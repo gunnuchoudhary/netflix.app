@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.img {
+  height: 35px;
+}
+.header div {
+  width: 100%;
+  margin-left: 4vmax;
+}
+
+.header div a {
+  margin: 2vmax;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+.active {
+  color: red !important;
+  background-color: white;
+  padding: 3rem;
+}
+.search-icon {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.search-icon :hover {
+  color: rgb(216, 216, 216);
+}
+@media screen and (max-width: 820px) {
+  .img {
+    height: 27px;
+  }
+
+  .header div {
+    width: 85%;
+  }
+
+  .header div a {
+    margin: 1vmax;
+    font-size: 1.2rem;
+    /* font-weight: 300; */
+  }
+  .active {
+    /* color: red !important;
+    background-color: white; */
+    padding: 0.7rem;
+  }
+  .search-icon {
+    /* color: white; */
+    font-size: 1rem;
+    /* cursor: pointer; */
+  }
+}
+@media screen and (max-width: 585px) {
+  .img {
+    height: 20px;
+  }
+  .header div {
+    width: 78%;
+    margin-left: 1.6vmax;
+  }
+
+  .header div a {
+    margin: 1vmax;
+    font-size: 0.8rem;
+  }
+  .active {
+    padding: 0.7rem;
+  }
+  .search-icon {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 445px) {
+  .img {
+    height: 13px;
+    padding-top: 0.4rem;
+  }
+
+  .header div a {
+    font-size: 0.6rem;
+  }
+
+  .search-icon {
+    font-size: 0.6rem;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .img {
+    height: 10px;
+  }
+
+  .header div a {
+    font-size: 0.4rem;
+  }
+
+  .search-icon {
+    font-size: 0.6rem;
+  }
+}
