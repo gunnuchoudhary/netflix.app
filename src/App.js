@@ -8,7 +8,7 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/netflix-app' element={<Home />} />
                 <Route path='/tvShows' element={<TvShow />} />
                 <Route path='/movies' element={<Home />} />
             </Routes>

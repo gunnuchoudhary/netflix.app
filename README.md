@@ -3,8 +3,7 @@ This is a Netflix clone project built using ReactJS. It allows users to browse p
 
 ## Features
 * `Home Page`: Displays a banner with details of the most popular movie. Also shows rows of popular, upcoming, now playing, and top-rated movies.
-*  `Navigation`: Users can click on movie genres to explore movies in specific categories.
-* `Play and Add to List`: Buttons are provided for playing the movie trailer and adding it to the user's watchlist.
+
 
 
 ## Installation

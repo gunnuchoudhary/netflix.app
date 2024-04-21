@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="header">
       <ul>
         <li>
-          <Link to="/">
+          <Link to="/netflix-app">
             <img src={logo} alt="logo" className="img" />
           </Link>
         </li>
